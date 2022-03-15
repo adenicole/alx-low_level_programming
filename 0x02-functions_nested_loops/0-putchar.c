@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -7,15 +7,13 @@
 
 int main(void)
 {
-		char c[10] = "_putchar";
-
-		int i = 0;
-
-		while (i < 9)
-		{
-			putchar(c[i]);
-			i++;
-		}
-		putchar('\n');
-		return (0);
+char c[10] = "School";
+int i = 0;
+while (i < 9)
+{
+_putchar(c[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }

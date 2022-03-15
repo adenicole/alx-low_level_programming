@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +8,7 @@
 
 int main(void)
 {
-char c[10] = "School";
+char c[10] = "Holberton";
 int i = 0;
 while (i < 9)
 {
